@@ -10,6 +10,7 @@ const URL = 'http://localhost:3003/api/todos'
 export default class Todo extends Component {
     constructor(props) {
         super(props)
+
         this.state = { 
             description: '', 
             list: [], 
