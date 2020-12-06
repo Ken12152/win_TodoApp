@@ -17,7 +17,7 @@ export default props => {
                 <input type="text" id="description" className='form-control'
                     placeholder='Adicione uma tarefa'
                     onChange={ props.handleChange }
-                    onKeyUp={ keyHandler}
+                    onKeyUp={ keyHandler }
                     value={ props.description }>
                 </input>
             </Grid>
